@@ -88,8 +88,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
 
 <div id="box">
   <form  method="post">
+
     <div style="font-size: 20px; margin:10px; color:white;" >Login</div>
+
+    User name
   <input id="text" type="text" name="user_name"><br><br>
+  password
   <input id="text" type="password" name="password"><br><br>
   <input id="button" type="submit" value="Login"><br><br>
 
